@@ -1,4 +1,4 @@
-# CSS Javascriptの練習問題
+# Javascript UIの練習問題
 
 **_※随時追加予定_**
 
@@ -68,9 +68,7 @@ btn.addEventListener("click", () => {
     }, 100);
 });
 ```
-
 </details>
-
 <details>
 <summary>01_2</summary>
 
@@ -82,7 +80,21 @@ btn.addEventListener("click", () => {
     btn.style.backgroundColor = color;
 });
 ```
+</details>
+<details>
+<summary>01_3</summary>
 
+```JS
+const btn = document.querySelector("#more-collection-button");
+btn.addEventListener("mousemove", (e) => {
+    const rect = btn.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    btn.style.backgroundPosition = `${x}% 0`;
+});
+btn.addEventListener("mouseleave", () => {
+    btn.style.backgroundPosition = "0% 0";
+});
+```
 </details>
 
 </details>
