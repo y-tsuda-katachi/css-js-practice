@@ -106,6 +106,34 @@ btn.addEventListener("mouseleave", () => {
 </details>
 <br>
 
+[練習問題4](./01_Button/01_4/.md)<br>
+
+<details>
+<summary>解答例</summary>
+
+```JS
+const btn = document.querySelector("#theme-button");
+const icon = document.querySelector("#icon");
+
+btn.addEventListener("click", () => {
+    const classList = document.body.classList;
+    document.body.classList.toggle("dark-theme");
+
+    if (classList.contains("dark-theme")) {
+        icon.textContent = "☼";
+        btn.style.background = "#ffa500";
+    } else {
+        icon.textContent = "☾";
+        btn.style.background = "#191970";
+    }
+});
+```
+
+</details>
+<br>
+
 ## 参考
+
+Mana [『1冊ですべて身につくJavaScript入門講座』](https://www.sbcr.jp/product/4815615758/)（2023）<br>
 Mana [『CSSとJavaScriptで作る動くUIアイデアレシピ』](https://book.impress.co.jp/books/1123101113)（2025）<br>
 MDN [JavaScript リファレンス](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference)
