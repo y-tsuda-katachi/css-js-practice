@@ -1,0 +1,23 @@
+body {
+  font-family: serif;
+  text-align: center;
+}
+#progress-bar {
+  background-color: #adf;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10px;
+}
+article {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+.article-content {
+  padding-top: 0.2rem;
+  margin-bottom: 2rem;
+  background-color: #ddd;
+  color: #fff;
+  height: 800px;
+}
