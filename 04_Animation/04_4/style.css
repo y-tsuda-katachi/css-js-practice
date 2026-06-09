@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+h1 {
+    background: #34f;
+    color: #fff;
+    display: inline-block;
+    padding: 6rem 3rem;
+    border-radius: 50%;
+}
+span {
+    background: #f34;
+    display: inline-block;
+    padding: 2rem 1rem;
+    border-radius: 50%;
+}
