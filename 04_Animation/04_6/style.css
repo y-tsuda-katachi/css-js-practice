@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    font-family: serif;
+}
+#title-label {
+    margin: 50vh 0 50vh;
+}
+#rand-img {
+    max-width: 100%;
+}
