@@ -1,0 +1,66 @@
+body {
+    font-family: serif;
+    text-align: center;
+}
+.btn-menu {
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    z-index: 1;
+    padding: auto;
+    color: #fff;
+    background: #aaa;
+    width: 64px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.4s;
+}
+#menu-close {
+    z-index: 3;
+}
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background: #eee;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    transition: 0.4s;
+}
+.menu {
+    list-style: none;
+    text-align: center;
+}
+.menu a {
+    color: #000;
+    display: block;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+.menu a:hover {
+    color: #05b;
+}
+.panel-open {
+    opacity: 1;
+    visibility: visible;
+}
+article {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+.article-content {
+    padding-top: 0.2rem;
+    margin-bottom: 2rem;
+    background-color: #ddd;
+    color: #fff;
+    height: 800px;
+}
