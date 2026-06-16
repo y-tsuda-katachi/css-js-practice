@@ -1,0 +1,21 @@
+.menu {
+    position: relative;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+.menu a {
+    color: #05b;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.magic-line {
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #05b;
+    transition: 0.4s;
+}
