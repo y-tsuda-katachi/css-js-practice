@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+}
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #aa0;
+  background: #ee0;
+  box-shadow: 3px 3px #eb0;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+button:hover {
+  color: #dd0;
+  background: #ff0;
+}
+#mask {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  opacity: 0;
+  visibility: hidden;
+}
+#modal {
+  background: #fff;
+  max-width: 36rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  inset: 10rem 0 auto;
+  margin: auto;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+}
