@@ -1,0 +1,46 @@
+body{
+  font-family: serif;
+  text-align: center;
+  color: #ccc;
+}
+ul {
+  list-style: none;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 0.5rem;
+}
+#slider {
+  display: flex;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  margin: 0 3rem;
+}
+#slider li {
+  position: absolute;
+  visibility: hidden;
+}
+#slider li .visible {
+  visibility: visible;
+}
+#slider li img {
+  width: 800px;
+  height: 600px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.slider-btn {
+  width: 3rem;
+  height: 3rem;
+  color: #aaa;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+.slider-btn:hover {
+  background: #ccc;
+  color: #eee;
+}
